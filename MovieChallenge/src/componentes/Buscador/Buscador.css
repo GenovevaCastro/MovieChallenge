@@ -11,3 +11,9 @@ justify-content: center;
 align-items: center;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+#lupa{
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+

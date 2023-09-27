@@ -1,6 +1,5 @@
 .botonContenedor{
-justify-content: center;
-margin: 20px;
+    justify-content: center;
 }
 .botonContenedor button{
     background-color:rgb(21, 155, 225);

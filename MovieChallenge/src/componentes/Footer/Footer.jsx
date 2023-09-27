@@ -6,7 +6,7 @@ function Footer(){
             <center>
             <img src="src/tmbd.jpg" alt="imgLogoTmbd"/>
            <p>
-            Design by Genoveva Castro - Derechos reservados TMBD
+            Created by Genoveva Castro - Derechos reservados TMBD
            </p>
            </center>
             </footer>
