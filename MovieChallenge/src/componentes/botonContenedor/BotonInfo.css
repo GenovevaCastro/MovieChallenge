@@ -1,0 +1,14 @@
+.botonContenedor{
+justify-content: center;
+margin: 20px;
+}
+.botonContenedor button{
+    background-color:rgb(21, 155, 225);
+    border-radius: 3px;
+    border-color: transparent;
+    width: 100px;
+    height: 25px;
+    font-size: small;
+    color: aliceblue;
+    box-shadow: 20px -10px 20px rgba(62, 171, 229, 0.496);
+}

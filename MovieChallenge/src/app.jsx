@@ -5,6 +5,8 @@ import ContenedorPeli from './componentes/ContenedorPeli/ContenedorPeli';
 import ButtonVerMas from './componentes/BotonVerMas/BotonVerMas';
 import Footer from './componentes/Footer/Footer';
 
+
+
 export function App (){
     return(
         <div>
