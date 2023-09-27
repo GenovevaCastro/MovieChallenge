@@ -1,0 +1,16 @@
+.ButtonVerMas{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.ButtonVerMas button{
+    background-color:rgb(21, 155, 225);
+    border-radius: 3px;
+    border-style:ridge;
+    border-color:black;
+    border-width: 4px 4px 4px;
+    width: 200px;
+    height: 35px;
+    font-size: medium;
+}
