@@ -1,0 +1,13 @@
+.buscador{
+    display: flex;
+    justify-content: center;
+}
+.buscador input{
+margin-top: 15px;
+width: 250px;
+height: 25px;
+font-size: medium;
+justify-content: center;
+align-items: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
