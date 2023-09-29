@@ -4,7 +4,6 @@ function Header(){
     return( 
    <header className='header'>
     <img src="src/logo.png" alt="imgLogo"/>
-    <p>hola</p>
     </header> 
     )
 }
