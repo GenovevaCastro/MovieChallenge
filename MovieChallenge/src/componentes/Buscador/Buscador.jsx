@@ -5,7 +5,7 @@ function Buscador(){
         <section className="buscador">
             <input placeholder="Busca tu película">
         </input>
-        <input id='lupa' type="image" src="src/lupa.png" alt="lupa"></input>
+        <input id='lupa' type="image" src="src/Imagenes/lupa.png" alt="lupa"></input>
         </section>
     )
 }

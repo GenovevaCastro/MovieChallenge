@@ -1,22 +1,17 @@
+import Home from './Home'
+import InfoPelicula from './InfoPelicula'
 
-import Header from './componentes/header/header';
-import Buscador from './componentes/Buscador/Buscador';
-import ContenedorPeli from './componentes/ContenedorPeli/ContenedorPeli';
-import ButtonVerMas from './componentes/BotonVerMas/BotonVerMas';
-import Footer from './componentes/Footer/Footer';
+ export function App (){
 
+    const location = window.location
+    console.log(location);
 
-
-export function App (){
     return(
-        <div>
-            <Header/>
-            <Buscador/>
-            <ContenedorPeli/>
-            <ButtonVerMas/>
-            <Footer/>
-        </div>
+            <Home/>,
+            <InfoPelicula/>
+            
     )
 }
+
 
 
