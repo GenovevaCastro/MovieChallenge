@@ -1,26 +1,23 @@
 import Home from './Home'
 import InfoPelicula from './InfoPelicula'
+import Page404 from './componentes/Page404/Page404';
 
- export function App (){
+//importacion para rutas con libreria react-router-dom
+import {BrowserRouter as Router, Routes,Route} from 'react-router-dom'; 
 
-//constante para window location pathname 
+
+ export function App (){ 
     const location = window.location.pathname
     console.log(location);
-
-    const Router = () =>{
-        //si location se encuentra en "/" abre el Home
-        if(location === "/"){
-            return <Home/>
-            //de lo contrario retorname InfoPelicula
-        }else{
-            return <InfoPelicula/>
-        }
-    }
-
     return(
-         <>
-          {Router()}
-         </>
+         <Router>
+            <Routes>
+                <Route path='/' element={<Home/>}/>
+                <Route path='/InfoPelicula' element={<InfoPelicula/>}/>
+                <Route path='*' element={<Page404/>}/>
+            </Routes>
+        
+         </Router>
        
     )
 }
