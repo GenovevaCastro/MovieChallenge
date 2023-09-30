@@ -1,17 +1,17 @@
-.ButtonVerMas{
+.ButtonRegresar{
     display: flex;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    justify-content: center;
+    margin-top: 35px;
+    margin-right: 50px;
+    justify-content: right;
     align-items: center;
 }
-.ButtonVerMas button{
+.ButtonRegresar button{
     background-color:rgb(21, 155, 225);
     border-radius: 3px;
     border-style:ridge;
     border-color:transparent;
     border-width: 2px 2px 2px;
-    width: 200px;
+    width: 100px;
     height: 35px;
     font-size: medium;
     color: aliceblue;

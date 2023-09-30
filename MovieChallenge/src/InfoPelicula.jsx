@@ -1,13 +1,14 @@
+import BotonRegresar from './componentes/BotonRegresar/BotonRegresar';
+import Footer from './componentes/Footer/Footer';
 
 
-function Button() {
-    return (
-        <center>
-            <div className="ButtonVerMas">
-                <button>Primera prueba de ruta</button>
-            </div>
-        </center>
+function InfoPelicula (){
+    return(
+        <div>
+            <BotonRegresar/>
+            <Footer/>
+        </div>
     )
 }
 
-export default Button
+export default InfoPelicula

@@ -6,7 +6,7 @@ function BotonInfo() {
         <center>
             <div className="botonContenedor">
             <Link to="/InfoPelicula">
-            <button>Información</button>
+            <button >Información</button>
             </Link>
             </div>
         </center>
