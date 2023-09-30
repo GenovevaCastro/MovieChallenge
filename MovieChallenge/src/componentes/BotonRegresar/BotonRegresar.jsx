@@ -8,6 +8,7 @@ function BotonRegresar() {
             <Link to = "/">
             <button>Regresar</button>
             </Link>
+
             </div>
         </center>
        

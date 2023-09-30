@@ -2,6 +2,7 @@
     justify-content: center;
 }
 .botonContenedor button{
+    margin-top: 10px;
     background-color:rgb(21, 155, 225);
     border-radius: 3px;
     border-color: transparent;

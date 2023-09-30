@@ -1,19 +1,31 @@
 
 .Page404 div{
-    margin-top: 100px;
-    display: flex;
+    margin-top:25px;
+    align-items: center;
+    display:flex;
     background-color:black;
     justify-content: center;
 }
 .Page404 h1{
+    margin-top: 40px;
     color: white;
     margin-right: 30px;
     align-items:center;
     display: flex;
-    font-size: xx-large;
+    font-size:50px
 }
-.Page404 img{
-    width: 300px;
+#tristeza{
+    margin-top: 40px;
+    display: flex;
+    width: 400px;
    align-items: center;
 
 }
+.Page404 section{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 20px;
+    justify-content: right;
+    align-items: center;
+}
+
