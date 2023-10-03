@@ -2,13 +2,11 @@
     justify-content: center;
 }
 .botonContenedor button{
-    margin-top: 10px;
-    background-color:rgb(21, 155, 225);
-    border-radius: 3px;
+    width: 60px;
+    margin-top: 5px;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.387);
     border-color: transparent;
-    width: 100px;
-    height: 25px;
     font-size: small;
-    color: aliceblue;
-    box-shadow: 20px -10px 20px rgba(62, 171, 229, 0.496);
+    color: white;
 }

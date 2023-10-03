@@ -2,13 +2,23 @@
     align-items: center;
     justify-content: center;
     display:inline-block;
-    margin-left: 25px;
-    margin-top: 25px;
+    margin-left: 70px;
+    margin-top: 40px;
 }
 .contenedorPeli section{
     width: 250px;
     height: 350px;
     margin-top: 30px;
+    box-shadow: 20px -10px 20px rgba(62, 171, 229, 0.496);
+}
+.Info{
+    width: 258px;
+    height: 430px;
+    background-color:rgba(21, 154, 225, 0.74);
+    border-radius: 3px;
+    border-color: transparent;
+    font-size: small;
+    color: aliceblue;
     box-shadow: 20px -10px 20px rgba(62, 171, 229, 0.496);
 }
 .contenedorPeli img{
@@ -18,4 +28,10 @@
     border-color:white;
     border-width: 4px 4px 4px;
     border-radius: 3px;
+}
+.contenedorPeli h2{
+    color: white;
+    font-size: medium;
+    margin-top: 10px;
+    margin: 5px;
 }
