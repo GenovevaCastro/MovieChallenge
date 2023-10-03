@@ -1,14 +1,17 @@
 import Home from './Home'
 import InfoPelicula from './InfoPelicula'
 import Page404 from './componentes/Page404/Page404';
-
 //importacion para rutas con libreria react-router-dom
 import {BrowserRouter as Router, Routes,Route} from 'react-router-dom'; 
 
 
+
+
  export function App (){ 
-    const location = window.location.pathname
-    console.log(location);
+
+
+  const location = window.location.pathname
+   
     return(
          <Router>
             <Routes>
@@ -20,7 +23,11 @@ import {BrowserRouter as Router, Routes,Route} from 'react-router-dom';
          </Router>
        
     )
-}
+    
+    }
+
+    
+    
 
 
 

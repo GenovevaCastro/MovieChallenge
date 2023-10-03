@@ -1,6 +1,9 @@
 .contenedorPeli{
-    display: flex;
-    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    display:inline-block;
+    margin-left: 25px;
+    margin-top: 25px;
 }
 .contenedorPeli section{
     width: 250px;
