@@ -5,7 +5,11 @@ body{
 .header{
     text-align: center;
 }
-.header img{
-    margin-top: 15px;
+#pelis{
+    border-radius: 20px;
+    width: 100%;
+    opacity: .5;
+}
+#logo{
     width: 280px;
 }

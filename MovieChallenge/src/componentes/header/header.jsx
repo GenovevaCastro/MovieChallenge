@@ -3,7 +3,10 @@ import './Header.css'
 function Header(){
     return( 
    <header className='header'>
-    <img src="src/Imagenes/logo.png" alt="imgLogo"/>
+    <div >
+    <img id='pelis' src="src/Imagenes/fondo.png" />
+    </div>
+    <img id='logo' src="src/Imagenes/logo.png" alt="imgLogo"/>
     </header> 
     )
 }
